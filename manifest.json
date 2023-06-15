@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "Add MVP Tag ",
+    "description": "Add my mvp tag everywhere",
+    "version": "0.1",
+    "author": "Wilfried Woivré",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "scripting",
+        "webNavigation"
+    ],
+    "host_permissions": [
+        "*://*.docs.microsoft.com/*",
+        "*://*.learn.microsoft.com/*",
+        "*://*.social.technet.microsoft.com/*",
+        "*://*.azure.microsoft.com/*",
+        "*://*.techcommunity.microsoft.com/*",
+        "*://*.social.msdn.microsoft.com/*",
+        "*://*.devblogs.microsoft.com/*",
+        "*://*.developer.microsoft.com/*",
+        "*://*.channel9.msdn.com/*",
+        "*://*.gallery.technet.microsoft.com/*",
+        "*://*.cloudblogs.microsoft.com/*",
+        "*://*.technet.microsoft.com/*",
+        "*://*.docs.azure.cn/*",
+        "*://*.www.azure.cn/*",
+        "*://*.msdn.microsoft.com/*",
+        "*://*.blogs.msdn.microsoft.com/*",
+        "*://*.blogs.technet.microsoft.com/*",
+        "*://*.microsoft.com/handsonlabs/*"
+    ]
+
+}
